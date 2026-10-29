@@ -1,0 +1,17 @@
+
+{
+  "name": "CRUD Estudiantes - Flask MySQL",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [8081, 8090],
+  "portsAttributes": {
+    "8081": {
+      "label": "Aplicación Flask",
+      "onAutoForward": "notify"
+    },
+    "8090": {
+      "label": "phpMyAdmin",
+      "onAutoForward": "notify"
+    }
+  }
+}
+   
